@@ -4,13 +4,13 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-publications",
-          title: "publications",
+          title: "Publications",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -26,8 +26,8 @@ ninja.data = [{
         },{id: "news-presented-hybrid-qa-model-at-dao-xai-2024-workshop-at-ecai-santiago-de-compostela-spain",
           title: 'Presented hybrid QA model at DAO-XAI 2024 workshop at ECAI, Santiago de Compostela,...',
           description: "",
-          section: "News",},{id: "news-paper-on-kinshipqa-benchmark-submitted-to-acl-2026-and-available-on-arxiv",
-          title: 'Paper on KinshipQA benchmark submitted to ACL 2026 and available on arXiv.',
+          section: "News",},{id: "news-paper-on-kinshipqa-benchmark-available-on-arxiv",
+          title: 'Paper on KinshipQA benchmark available on arXiv.',
           description: "",
           section: "News",},{id: "news-kgeir-paper-accepted-at-ranlp-2025-workshop-r2lm-in-varna-bulgaria",
           title: 'KGEIR paper accepted at RANLP 2025 Workshop (R2LM) in Varna, Bulgaria.',
@@ -58,7 +58,7 @@ ninja.data = [{
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=", "_blank");
+          window.open("https://scholar.google.com/citations?user=eUuCj38AAAAJ", "_blank");
         },
       },{
         id: 'social-orcid',
