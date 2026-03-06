@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git clone https://github.com/alshedivat/al-folio.git temp_alfolio)",
+      "Bash(python3 -c \":*)",
+      "Bash(git init)",
+      "Bash(git branch -M main)"
+    ]
+  }
+}

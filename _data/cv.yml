@@ -1,0 +1,80 @@
+cv:
+  name: Tianda Sun
+  label: PhD Candidate in Computer Science
+  email: tianda.sun@york.ac.uk
+  location: York, United Kingdom
+  image: ""
+  summary: Final-year PhD researcher specializing in NLU, LLM reasoning, and benchmark development.
+
+  social_networks:
+    - network: GitHub
+      username: TiandaSun
+    - network: Google Scholar
+      username: ""
+
+  sections:
+    Education:
+      - institution: University of York
+        location: York, United Kingdom
+        url: https://www.york.ac.uk/
+        area: Computer Science
+        studyType: PhD
+        start_date: 2022-09
+        end_date: present
+        highlights:
+          - "Thesis: Knowledge Graph-Guided Reasoning in Large Language Models: Towards Interpretable Question Answering"
+          - "Supervisor: Dr. Dimitar Kazakov"
+
+      - institution: University of York
+        location: York, United Kingdom
+        area: Computer Science
+        studyType: MRes
+        start_date: 2021-09
+        end_date: 2022-09
+        highlights:
+          - "Thesis: Relation Extraction in Financial Reports using Distant Supervision with BERT and PCNN"
+
+      - institution: University of Liverpool
+        location: Liverpool, United Kingdom
+        area: Advanced Computer Science
+        studyType: MSc
+        start_date: 2017
+        end_date: 2018
+
+      - institution: Tianjin Polytechnic University
+        location: Tianjin, China
+        area: Software Engineering
+        studyType: BSc
+        start_date: 2011
+        end_date: 2015
+
+    Experience:
+      - company: University of York
+        position: Graduate Teaching Assistant
+        location: York, United Kingdom
+        start_date: 2022
+        end_date: 2025
+        highlights:
+          - "DEEP: Deep Learning and Evolution of AI Paradigms"
+          - "EVAC: Evaluating and Validating AI Claims"
+
+    Skills:
+      - name: Programming
+        level: Expert
+        icon: fa-solid fa-code
+        keywords: "Python, Java, SQL, Bash, C++"
+
+      - name: ML/DL Frameworks
+        level: Advanced
+        icon: fa-solid fa-brain
+        keywords: "PyTorch, HuggingFace Transformers, scikit-learn, LangChain"
+
+      - name: NLP & Knowledge Graphs
+        level: Advanced
+        icon: fa-solid fa-diagram-project
+        keywords: "SPARQL, RDF/OWL, Neo4j, NLTK, spaCy"
+
+      - name: Infrastructure
+        level: Advanced
+        icon: fa-solid fa-server
+        keywords: "Linux, Git, Docker, HPC clusters"
