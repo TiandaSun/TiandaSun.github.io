@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: PhD Candidate in Computer Science · <a href='https://www.york.ac.uk/computer-science/'>University of York</a>, UK
 
