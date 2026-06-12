@@ -32,6 +32,12 @@ ninja.data = [{
           section: "News",},{id: "news-paper-on-kinshipqa-benchmark-available-on-arxiv",
           title: 'Paper on KinshipQA benchmark available on arXiv.',
           description: "",
+          section: "News",},{id: "news-new-paper-peak-then-collapse-and-the-four-interface-channels-of-knowledge-graph-tool-use-available-on-arxiv-under-review-at-emnlp-2026",
+          title: 'New paper Peak-Then-Collapse and the Four Interface Channels of Knowledge-Graph Tool Use available...',
+          description: "",
+          section: "News",},{id: "news-new-paper-tool-call-dependency-structure-is-linearly-decodable-in-llm-agent-residual-streams-available-on-arxiv-under-review-at-emnlp-2026",
+          title: 'New paper Tool-Call Dependency Structure is Linearly Decodable in LLM Agent Residual Streams...',
+          description: "",
           section: "News",},{
         id: 'social-cv',
         title: 'CV',
