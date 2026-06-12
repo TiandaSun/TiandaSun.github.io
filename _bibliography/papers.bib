@@ -1,6 +1,32 @@
 ---
 ---
 
+@article{sun2026peakcollapse,
+  abbr      = {arXiv},
+  title     = {Peak-Then-Collapse and the Four Interface Channels of Knowledge-Graph Tool Use},
+  author    = {Sun, Tianda and Kazakov, Dimitar},
+  journal   = {arXiv preprint arXiv:2605.26037},
+  year      = {2026},
+  arxiv     = {2605.26037},
+  code      = {https://github.com/TiandaSun/KG_GRPO},
+  abstract  = {We test the standard RLVR tool-use recipe (GRPO on Qwen2.5-7B-Instruct) on a deliberately minimal knowledge-graph tool API of four Freebase navigation verbs over Complex WebQuestions. The policy's tool-grounded answer rate climbs from 3.8% to 9.6% before collapsing to 0% within a single 50-step window, a peak-then-collapse pattern replicated across four seeds and seven reward designs. We trace the failure to sparse interface feedback and show that one-iteration self-distillation reaches 40.0% exact-match accuracy, with the performance ceiling appearing interface-bound across the 7B-14B range.},
+  selected  = {true},
+  bibtex_show = {true}
+}
+
+@article{sun2026toolcall,
+  abbr      = {arXiv},
+  title     = {Tool-Call Dependency Structure is Linearly Decodable in {LLM} Agent Residual Streams},
+  author    = {Sun, Tianda and Kazakov, Dimitar},
+  journal   = {arXiv preprint arXiv:2605.25310},
+  year      = {2026},
+  arxiv     = {2605.25310},
+  code      = {https://github.com/TiandaSun/toolcall-dependency-probe},
+  abstract  = {Tool-using LLM agents produce trajectories whose calls form a directed dependency graph, where earlier tool outputs supply arguments to later calls. Using a low-capacity edge probe on the residual stream of Qwen3-32B, we decode this dependency graph well above both a Hewitt-Liang random-label control and a positional baseline, with counterfactual tests indicating the signal tracks abstract topology rather than identifier values. To our knowledge this is the first structural probe of an LLM agent's runtime tool-call dependency graph, replicating across three multi-hop benchmarks and two model families.},
+  selected  = {true},
+  bibtex_show = {true}
+}
+
 @article{sun2026kinshipqa,
   abbr      = {arXiv},
   title     = {Kinship Data Benchmark for Multi-hop Reasoning},

@@ -32,4 +32,6 @@ I am a final-year PhD candidate in Computer Science at the [University of York](
 
 I created [KinshipQA](https://github.com/TiandaSun/KinshipQA), a contamination-proof benchmark for evaluating multi-hop reasoning across culturally diverse contexts, and developed the [KGEIR](https://github.com/TiandaSun/KGEIR) framework that integrates knowledge graphs with iterative LLM reasoning.
 
-**Research Interests:** Large Language Model Reasoning, Multi-hop Question Answering, Knowledge Graph Construction & Reasoning, Retrieval-Augmented Generation (RAG), Benchmark Development & Evaluation, Cross-cultural NLP
+My current work extends to **agentic tool use** and **mechanistic interpretability** of LLM agents: [Peak-Then-Collapse](https://arxiv.org/abs/2605.26037) studies reinforcement-learning post-training for knowledge-graph tool use and the role of interface feedback, while [Tool-Call Dependency Structure is Linearly Decodable](https://arxiv.org/abs/2605.25310) probes how agents internally represent tool-call dependencies in their residual streams.
+
+**Research Interests:** Large Language Model Reasoning, Multi-hop Question Answering, Knowledge Graph Construction & Reasoning, Agentic Tool Use & Reinforcement Learning, Mechanistic Interpretability, Retrieval-Augmented Generation (RAG), Benchmark Development & Evaluation, Cross-cultural NLP

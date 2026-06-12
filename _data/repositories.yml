@@ -6,3 +6,5 @@ repo_description_lines_max: 2
 github_repos:
   - TiandaSun/KinshipQA
   - TiandaSun/KGEIR
+  - TiandaSun/KG_GRPO
+  - TiandaSun/toolcall-dependency-probe
