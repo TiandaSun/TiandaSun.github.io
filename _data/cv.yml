@@ -58,6 +58,48 @@ cv:
           - "DEEP: Deep Learning and Evolution of AI Paradigms"
           - "EVAC: Evaluating and Validating AI Claims"
 
+    Publications:
+      - title: "Peak-Then-Collapse and the Four Interface Channels of Knowledge-Graph Tool Use"
+        date: "2026-10"
+        publisher: "Proceedings of EMNLP 2026 (Main Conference), Budapest, Hungary"
+        url: https://arxiv.org/abs/2605.26037
+        summary: "Tianda Sun, Dimitar Kazakov"
+
+      - title: "Kinship Data Benchmark for Multi-hop Reasoning (KinshipQA)"
+        date: "2026-10"
+        publisher: "Findings of the Association for Computational Linguistics: EMNLP 2026, Budapest, Hungary"
+        url: https://arxiv.org/abs/2601.07794
+        summary: "Tianda Sun, Dimitar Kazakov"
+
+      - title: "Tool-Call Dependency Structure is Linearly Decodable in LLM Agent Residual Streams"
+        date: "2026-05"
+        publisher: "arXiv preprint arXiv:2605.25310"
+        url: https://arxiv.org/abs/2605.25310
+        summary: "Tianda Sun, Dimitar Kazakov"
+
+      - title: "KGEIR: Knowledge Graph-Enhanced Iterative Reasoning for Multi-Hop Question Answering"
+        date: "2025-09"
+        publisher: "RANLP 2025 Workshop on Robust and Low-Resource Large Language Models (R2LM), Varna, Bulgaria"
+        url: https://aclanthology.org/2025.r2lm-1.14/
+        summary: "Tianda Sun, Dimitar Kazakov"
+
+      - title: "TOGGLE Delineates Fate and Function within Individual Cell Types via Single Cell Transcriptomics"
+        date: "2025-01"
+        publisher: "bioRxiv preprint"
+        url: https://doi.org/10.1101/2025.01.01.631041
+        summary: "Jiawei Chen, Zhihao Chen, Tianda Sun, Kun Liu, Enming Jiang, Yongjie Nong, Tao Yuan, Chun-Chun Dai, Yao Yan, et al."
+
+      - title: "A Hybrid Question Answering Model with Ontological Integration for Environmental Information"
+        date: "2024-07"
+        publisher: "DAO-XAI 2024 Workshop at ECAI, Santiago de Compostela, Spain"
+        url: https://ceur-ws.org/Vol-3833/paper8.pdf
+        summary: "Tianda Sun, Jamie Carr, Dimitar Kazakov"
+
+      - title: "NLP Analysis of COVID-19 Radiology Reports in Indonesian using IndoBERT"
+        date: "2022"
+        publisher: "IEEE International Biomedical Instrumentation and Technology Conference (IBIOMED)"
+        summary: "Nunung Nurul Qomariyah, Tianda Sun, Dimitar Kazakov"
+
     Skills:
       - name: Programming
         level: Expert

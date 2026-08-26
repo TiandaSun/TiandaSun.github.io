@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-New paper **Peak-Then-Collapse and the Four Interface Channels of Knowledge-Graph Tool Use** available on [arXiv](https://arxiv.org/abs/2605.26037); under review at **EMNLP 2026**.
+New paper **Peak-Then-Collapse and the Four Interface Channels of Knowledge-Graph Tool Use** available on [arXiv](https://arxiv.org/abs/2605.26037).
