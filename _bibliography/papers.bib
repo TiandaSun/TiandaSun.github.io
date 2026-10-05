@@ -2,10 +2,11 @@
 ---
 
 @inproceedings{sun2026peakcollapse,
-  abbr      = {EMNLP},
+  abbr      = {EMNLP Main},
   title     = {Peak-Then-Collapse and the Four Interface Channels of Knowledge-Graph Tool Use},
   author    = {Sun, Tianda and Kazakov, Dimitar},
   booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  note      = {Accepted},
   address   = {Budapest, Hungary},
   year      = {2026},
   arxiv     = {2605.26037},
@@ -20,24 +21,26 @@
   title     = {Tool-Call Dependency Structure is Linearly Decodable in {LLM} Agent Residual Streams},
   author    = {Sun, Tianda and Kazakov, Dimitar},
   journal   = {arXiv preprint arXiv:2605.25310},
+  note      = {Under review},
   year      = {2026},
   arxiv     = {2605.25310},
   code      = {https://github.com/TiandaSun/toolcall-dependency-probe},
   abstract  = {Tool-using LLM agents produce trajectories whose calls form a directed dependency graph, where earlier tool outputs supply arguments to later calls. Using a low-capacity edge probe on the residual stream of Qwen3-32B, we decode this dependency graph well above both a Hewitt-Liang random-label control and a positional baseline, with counterfactual tests indicating the signal tracks abstract topology rather than identifier values. To our knowledge this is the first structural probe of an LLM agent's runtime tool-call dependency graph, replicating across three multi-hop benchmarks and two model families.},
-  selected  = {true},
+  selected  = {false},
   bibtex_show = {true}
 }
 
 @inproceedings{sun2026kinshipqa,
-  abbr      = {EMNLP},
+  abbr      = {Findings},
   title     = {Kinship Data Benchmark for Multi-hop Reasoning},
   author    = {Sun, Tianda and Kazakov, Dimitar},
   booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2026},
+  note      = {Accepted},
   address   = {Budapest, Hungary},
   year      = {2026},
   arxiv     = {2601.07794},
-  code      = {https://github.com/TiandaSun/KinshipQA},
-  abstract  = {We introduce KinshipQA, a contamination-proof benchmark evaluating LLM multi-hop reasoning across 7 culturally diverse kinship systems. We evaluate 6 state-of-the-art LLMs on 3,134 questions with controlled reasoning complexity (1-4 hops), revealing significant performance degradation as reasoning depth increases.},
+  code      = {https://github.com/TiandaSun/Kinship-Data-Benchmark-for-Multi-hop-Reasoning},
+  abstract  = {KinshipQA is a procedurally generated benchmark covering seven anthropological kinship systems and up to six reasoning hops. Controlled evaluation of six LLMs investigates cultural-rule application, reasoning depth, and the effects of fictional labels and explicit rule access.},
   google_scholar_id = {u5HHmVD_uO8C},
   selected  = {true},
   bibtex_show = {true}
@@ -53,7 +56,7 @@
   code      = {https://github.com/TiandaSun/KGEIR},
   html      = {https://aclanthology.org/2025.r2lm-1.14/},
   abstract  = {We propose KGEIR, a framework combining LLM reasoning with dynamic knowledge graph construction. KGEIR achieves competitive and superior performance on HotpotQA, 2WikiMultiHopQA, and MuSiQue benchmarks compared to state-of-the-art RAG methods, with a 4.5% F1 improvement over Tree-of-Thought baseline.},
-  selected  = {true},
+  selected  = {false},
   bibtex_show = {true}
 }
 
@@ -66,7 +69,7 @@
   address   = {Santiago de Compostela, Spain},
   pdf       = {https://ceur-ws.org/Vol-3833/paper8.pdf},
   abstract  = {We present a hybrid question answering model that integrates ontological knowledge for environmental information retrieval, combining structured knowledge representation with neural language understanding.},
-  selected  = {true},
+  selected  = {false},
   bibtex_show = {true}
 }
 
@@ -99,5 +102,18 @@
   year      = {2022},
   note      = {British Council Newton Fund},
   abstract  = {We apply IndoBERT for NLP analysis of COVID-19 radiology reports written in Indonesian, demonstrating the effectiveness of language-specific pre-trained models for medical text processing in low-resource languages.},
+  bibtex_show = {true}
+}
+
+@unpublished{sun2026conditionreuse,
+  abbr      = {Manuscript},
+  title     = {From Target Selection to Condition Reuse: Auditing Residual Interventions in Tool-Use Models},
+  author    = {Sun, Tianda and Kazakov, Dimitar},
+  year      = {2026},
+  note      = {Under review; arXiv announcement pending},
+  pdf       = {https://github.com/TiandaSun/residual-condition-reuse/raw/refs/heads/main/paper/condition_reuse.pdf},
+  code      = {https://github.com/TiandaSun/residual-condition-reuse},
+  abstract  = {Controlled tool-use experiments distinguish familiar target selection from condition reuse, independent eligibility judgments, and complete-action correctness under residual interventions. The findings concern the tested intervention regime.},
+  selected  = {false},
   bibtex_show = {true}
 }

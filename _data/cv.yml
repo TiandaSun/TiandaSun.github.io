@@ -3,10 +3,13 @@ cv:
   label: PhD Candidate in Computer Science
   email: tianda.sun@york.ac.uk
   location: York, United Kingdom
+  website: https://tiandasun.github.io/
   image: ""
-  summary: Final-year PhD researcher specializing in NLU, LLM reasoning, and benchmark development.
+  summary: "Final-year Computer Science PhD working on LLM reasoning and agentic tool use, with research in evaluation, RL post-training, and mechanistic interpretability. Two first-author papers accepted at EMNLP 2026: Main Conference and Findings."
 
   social_networks:
+    - network: LinkedIn
+      username: tianda-sun-042049238
     - network: GitHub
       username: TiandaSun
     - network: Google Scholar
@@ -50,6 +53,18 @@ cv:
 
     Experience:
       - company: University of York
+        position: PhD Research — LLM Reasoning and Agentic Tool Use
+        location: York, United Kingdom
+        start_date: 2022-09
+        end_date: present
+        summary: "Doctoral research supervised by Dr. Dimitar Kazakov."
+        highlights:
+          - "Built a single-GPU GRPO post-training pipeline with verl and vLLM; used multi-seed experiments and reward controls to diagnose training collapse and investigate interface feedback. Accepted at EMNLP 2026 Main Conference."
+          - "Created KinshipQA across seven kinship systems and up to six reasoning hops, with an RDF/OWL and SPARQL generation pipeline and evaluation of six LLMs. Accepted to Findings of EMNLP 2026."
+          - "Studied tool-call dependency representations with linear probes, controls, and activation patching across two model families."
+          - "Audited residual interventions on target selection, condition reuse, independent eligibility judgments, and complete actions; released reproducible research artifacts."
+
+      - company: University of York
         position: Graduate Teaching Assistant
         location: York, United Kingdom
         start_date: 2022
@@ -60,21 +75,15 @@ cv:
 
     Publications:
       - title: "Peak-Then-Collapse and the Four Interface Channels of Knowledge-Graph Tool Use"
-        date: "2026-10"
-        publisher: "Proceedings of EMNLP 2026 (Main Conference), Budapest, Hungary"
+        date: "2026"
+        publisher: "EMNLP 2026 Main Conference; accepted"
         url: https://arxiv.org/abs/2605.26037
         summary: "Tianda Sun, Dimitar Kazakov"
 
       - title: "Kinship Data Benchmark for Multi-hop Reasoning (KinshipQA)"
-        date: "2026-10"
-        publisher: "Findings of the Association for Computational Linguistics: EMNLP 2026, Budapest, Hungary"
+        date: "2026"
+        publisher: "Findings of EMNLP 2026; accepted"
         url: https://arxiv.org/abs/2601.07794
-        summary: "Tianda Sun, Dimitar Kazakov"
-
-      - title: "Tool-Call Dependency Structure is Linearly Decodable in LLM Agent Residual Streams"
-        date: "2026-05"
-        publisher: "arXiv preprint arXiv:2605.25310"
-        url: https://arxiv.org/abs/2605.25310
         summary: "Tianda Sun, Dimitar Kazakov"
 
       - title: "KGEIR: Knowledge Graph-Enhanced Iterative Reasoning for Multi-Hop Question Answering"
@@ -100,6 +109,16 @@ cv:
         publisher: "IEEE International Biomedical Instrumentation and Technology Conference (IBIOMED)"
         summary: "Nunung Nurul Qomariyah, Tianda Sun, Dimitar Kazakov"
 
+    Preprints and Manuscripts Under Review:
+      - bullet: >-
+          **[Tool-Call Dependency Structure is Linearly Decodable in LLM Agent Residual Streams](https://arxiv.org/abs/2605.25310)** — Tianda Sun and Dimitar Kazakov (2026).
+          Public arXiv preprint; **under review**. Linear probing and activation patching of tool-call dependency representations.
+          [Code](https://github.com/TiandaSun/toolcall-dependency-probe).
+      - bullet: >-
+          **[From Target Selection to Condition Reuse: Auditing Residual Interventions in Tool-Use Models](https://github.com/TiandaSun/residual-condition-reuse/blob/main/paper/condition_reuse.pdf)** — Tianda Sun and Dimitar Kazakov (2026).
+          **Manuscript under review**; arXiv announcement pending. Controlled evaluation of the limits of residual interventions.
+          [Code and archived demo](https://github.com/TiandaSun/residual-condition-reuse).
+
     Skills:
       - name: Programming
         level: Expert
@@ -109,7 +128,11 @@ cv:
       - name: ML/DL Frameworks
         level: Advanced
         icon: fa-solid fa-brain
-        keywords: "PyTorch, HuggingFace Transformers, scikit-learn, LangChain"
+        keywords: "PyTorch, Hugging Face Transformers, scikit-learn, GRPO, verl, vLLM, LangChain"
+
+      - name: Evaluation & Interpretability
+        icon: fa-solid fa-magnifying-glass-chart
+        keywords: "Benchmark design, multi-seed and cross-model evaluation, linear probing, activation patching"
 
       - name: NLP & Knowledge Graphs
         level: Advanced
