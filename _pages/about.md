@@ -28,10 +28,12 @@ latest_posts:
   limit: 3
 ---
 
-I am a final-year PhD candidate in Computer Science at the [University of York](https://www.york.ac.uk/), supervised by [Dr. Dimitar Kazakov](https://www.cs.york.ac.uk/people/kazakov). My research focuses on **LLM reasoning**, **knowledge graph integration**, and **benchmark development** for natural language understanding.
+I am a final-year PhD candidate in Computer Science at the [University of York](https://www.york.ac.uk/), supervised by [Dr. Dimitar Kazakov](https://www.cs.york.ac.uk/people/kazakov). I study **LLM reasoning and agentic tool use**, with research in **evaluation, RL post-training, and mechanistic interpretability**.
 
-I created [KinshipQA](https://github.com/TiandaSun/KinshipQA), a contamination-proof benchmark for evaluating multi-hop reasoning across culturally diverse contexts, and developed the [KGEIR](https://github.com/TiandaSun/KGEIR) framework that integrates knowledge graphs with iterative LLM reasoning.
+My two representative papers are **[Peak-Then-Collapse](https://arxiv.org/abs/2605.26037)**, accepted to the **EMNLP 2026 Main Conference**, and **[KinshipQA](https://arxiv.org/abs/2601.07794)**, accepted to **Findings of EMNLP 2026**. The first investigates GRPO training collapse and interface feedback in knowledge-graph tool use. The second provides a procedurally generated benchmark across seven kinship systems and up to six reasoning hops, with controlled evaluation of cultural-rule application.
 
-My current work extends to **agentic tool use** and **mechanistic interpretability** of LLM agents: [Peak-Then-Collapse](https://arxiv.org/abs/2605.26037) studies reinforcement-learning post-training for knowledge-graph tool use and the role of interface feedback, while [Tool-Call Dependency Structure is Linearly Decodable](https://arxiv.org/abs/2605.25310) probes how agents internally represent tool-call dependencies in their residual streams.
+Two further manuscripts are **under review**: [Tool-Call Dependency Structure is Linearly Decodable](https://arxiv.org/abs/2605.25310), on dependency representations in agent residual streams, and [From Target Selection to Condition Reuse](https://github.com/TiandaSun/residual-condition-reuse), on the limits of residual interventions. The latter's manuscript and code are available in its repository; an arXiv link will be added after announcement.
 
-**Research Interests:** Large Language Model Reasoning, Multi-hop Question Answering, Knowledge Graph Construction & Reasoning, Agentic Tool Use & Reinforcement Learning, Mechanistic Interpretability, Retrieval-Augmented Generation (RAG), Benchmark Development & Evaluation, Cross-cultural NLP
+Earlier work includes [KGEIR](https://github.com/TiandaSun/KGEIR), a framework combining knowledge graphs with iterative LLM reasoning. I am exploring research and applied-science roles in LLM/Agent evaluation and post-training in the **UK and China**.
+
+[CV](/cv/) · [GitHub](https://github.com/TiandaSun) · [LinkedIn](https://www.linkedin.com/in/tianda-sun-042049238/) · [Google Scholar](https://scholar.google.com/citations?user=eUuCj38AAAAJ)
