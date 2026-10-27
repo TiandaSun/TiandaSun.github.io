@@ -44,6 +44,9 @@ ninja.data = [{
           section: "News",},{id: "news-kinshipqa-paper-accepted-to-findings-of-emnlp-2026-in-budapest-hungary",
           title: 'KinshipQA paper accepted to Findings of EMNLP 2026 in Budapest, Hungary.',
           description: "",
+          section: "News",},{id: "news-publication-update-from-target-selection-to-condition-reuse-is-available-on-arxiv-the-official-emnlp-2026-main-and-findings-versions-of-peak-then-collapse-and-kinshipqa-are-now-available-in-the-acl-anthology",
+          title: 'Publication update: From Target Selection to Condition Reuse is available on arXiv. The...',
+          description: "",
           section: "News",},{
         id: 'social-cv',
         title: 'CV',
