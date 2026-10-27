@@ -5,7 +5,7 @@ cv:
   location: York, United Kingdom
   website: https://tiandasun.github.io/
   image: ""
-  summary: "Final-year Computer Science PhD working on LLM reasoning and agentic tool use, with research in evaluation, RL post-training, and mechanistic interpretability. Two first-author papers accepted at EMNLP 2026: Main Conference and Findings."
+  summary: "Final-year Computer Science PhD working on LLM reasoning and agentic tool use, with research in evaluation, RL post-training, and mechanistic interpretability. Two first-author papers published at EMNLP 2026: Main Conference and Findings."
 
   social_networks:
     - network: LinkedIn
@@ -59,8 +59,8 @@ cv:
         end_date: present
         summary: "Doctoral research supervised by Dr. Dimitar Kazakov."
         highlights:
-          - "Built a single-GPU GRPO post-training pipeline with verl and vLLM; used multi-seed experiments and reward controls to diagnose training collapse and investigate interface feedback. Accepted at EMNLP 2026 Main Conference."
-          - "Created KinshipQA across seven kinship systems and up to six reasoning hops, with an RDF/OWL and SPARQL generation pipeline and evaluation of six LLMs. Accepted to Findings of EMNLP 2026."
+          - "Built a single-GPU GRPO post-training pipeline with verl and vLLM; used multi-seed experiments and reward controls to diagnose training collapse and investigate interface feedback. Published in EMNLP 2026 Main Conference."
+          - "Created KinshipQA across seven kinship systems and up to six reasoning hops, with an RDF/OWL and SPARQL generation pipeline and evaluation of six LLMs. Published in Findings of EMNLP 2026."
           - "Studied tool-call dependency representations with linear probes, controls, and activation patching across two model families."
           - "Audited residual interventions on target selection, condition reuse, independent eligibility judgments, and complete actions; released reproducible research artifacts."
 
@@ -75,15 +75,15 @@ cv:
 
     Publications:
       - title: "Peak-Then-Collapse and the Four Interface Channels of Knowledge-Graph Tool Use"
-        date: "2026"
-        publisher: "EMNLP 2026 Main Conference; accepted"
-        url: https://arxiv.org/abs/2605.26037
+        date: "2026-10"
+        publisher: "EMNLP 2026 Main Conference, pp. 10214–10230"
+        url: https://aclanthology.org/2026.emnlp-main.443/
         summary: "Tianda Sun, Dimitar Kazakov"
 
       - title: "Kinship Data Benchmark for Multi-hop Reasoning (KinshipQA)"
-        date: "2026"
-        publisher: "Findings of EMNLP 2026; accepted"
-        url: https://arxiv.org/abs/2601.07794
+        date: "2026-10"
+        publisher: "Findings of EMNLP 2026, pp. 5767–5784"
+        url: https://aclanthology.org/2026.findings-emnlp.274/
         summary: "Tianda Sun, Dimitar Kazakov"
 
       - title: "KGEIR: Knowledge Graph-Enhanced Iterative Reasoning for Multi-Hop Question Answering"
@@ -115,8 +115,8 @@ cv:
           Public arXiv preprint; **under review**. Linear probing and activation patching of tool-call dependency representations.
           [Code](https://github.com/TiandaSun/toolcall-dependency-probe).
       - bullet: >-
-          **[From Target Selection to Condition Reuse: Auditing Residual Interventions in Tool-Use Models](https://github.com/TiandaSun/residual-condition-reuse/blob/main/paper/condition_reuse.pdf)** — Tianda Sun and Dimitar Kazakov (2026).
-          **Manuscript under review**; arXiv announcement pending. Controlled evaluation of the limits of residual interventions.
+          **[From Target Selection to Condition Reuse: Auditing Residual Interventions in Tool-Use Models](https://arxiv.org/abs/2610.31686)** — Tianda Sun and Dimitar Kazakov (2026).
+          Public arXiv preprint ([arXiv:2610.31686](https://arxiv.org/abs/2610.31686)); **under review**. Controlled evaluation of residual interventions in Qwen3.5-27B across 32 fresh worlds.
           [Code and archived demo](https://github.com/TiandaSun/residual-condition-reuse).
 
     Skills:
