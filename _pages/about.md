@@ -6,7 +6,7 @@ subtitle: PhD Candidate in Computer Science · <a href='https://www.york.ac.uk/c
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: tianda-sun-profile.png
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Artificial Intelligence Group</p>
